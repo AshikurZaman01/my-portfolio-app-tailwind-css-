@@ -1,3 +1,4 @@
+import About from "../About/About";
 import Skills from "../Skills/Skills";
 import Technologies from "../Technologies/Technologies";
 import Header from "./Header/Header";
@@ -10,6 +11,7 @@ const Home = () => {
             <div><Hero></Hero></div>
             <div id="technologies"><Technologies ></Technologies></div>
             <div><Skills></Skills></div>
+            <div><About></About></div>
         </div>
     );
 };
