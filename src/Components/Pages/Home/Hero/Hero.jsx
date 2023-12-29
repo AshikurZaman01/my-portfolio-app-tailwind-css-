@@ -12,7 +12,7 @@ const Hero = () => {
 
     return (
         <div>
-            <section className=' flex justify-center items-center' >
+            <section className='md:h-[80vh]  flex justify-center items-center' >
                 <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-6 text-center sm:text-left">
                     <div className='md:order-1 order-2'>
                         <h2 className="font-bold text-4xl">Hello, I'm <span style={gradientStyle}>Ashik</span>,</h2>
@@ -23,7 +23,7 @@ const Hero = () => {
                             <p className="mt-4 text-gray-400 w-[850px]">
                                 Former digital-marketing specialist, seeking to apply
                                 competent development skills with focus on collaboration,
-                                communication, and passion 
+                                communication, and passion
                             </p>
                             <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                                 Download resume
